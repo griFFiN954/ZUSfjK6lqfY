@@ -1,0 +1,21 @@
+{
+    "bot": {
+        "token": "${BOT_TOKEN}",
+        "owner": "${OWNER_ID}"
+    },
+    "persistence": {
+        "url": "${MONGO_URL}",
+        "db_name": "${DATABASE_NAME}",
+        "encryption_key": "${ENCRYPTION_KEY}"
+    },
+    "topgg": {
+        "enable": "${ENABLE_TOPGG}",
+        "bot_id": "${TOPGG_ID}",
+        "token": "${TOPGG_TOKEN}"
+    },
+    "botsgg": {
+        "enable": "${ENABLE_BOTSGG}",
+        "bot_id": "${BOTSGG_ID}",
+        "token": "${BOTSGG_TOKEN}"
+    }
+}
